@@ -1,0 +1,25 @@
+{
+  "message_type": "pacs.008",
+  "timestamp": "20251101_1758",
+  "llm_calls": 0,
+  "estimated_tokens": 0,
+  "total_scenarios": 26,
+  "agents": [
+    {
+      "agent": "GenerateAgent",
+      "scenarios": 2
+    },
+    {
+      "agent": "EnhanceAgent",
+      "scenarios": 8
+    },
+    {
+      "agent": "ReviewAgent",
+      "scenarios": 8
+    },
+    {
+      "agent": "ExportAgent",
+      "scenarios": 8
+    }
+  ]
+}
