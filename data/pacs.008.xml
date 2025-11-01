@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.10">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>TRF20251026-001</MsgId>
+      <CreDtTm>2025-10-26T08:30:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>CLRG</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>INST-001</InstrId>
+        <EndToEndId>E2E-001</EndToEndId>
+        <TxId>TX-001</TxId>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="EUR">1000.00</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2025-10-26</IntrBkSttlmDt>
+      <Dbtr>
+        <Nm>XYZ GmbH</Nm>
+      </Dbtr>
+      <DbtrAcct>
+        <Id><IBAN>DE75512108001245126199</IBAN></Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId><BICFI>COBADEFFXXX</BICFI></FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId><BICFI>DEUTDEFFXXX</BICFI></FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>ABC Corporation</Nm>
+      </Cdtr>
+      <CdtrAcct>
+        <Id><IBAN>DE44500105175407324931</IBAN></Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>Invoice 1001 Payment</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

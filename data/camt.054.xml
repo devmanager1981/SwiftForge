@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.08">
+  <BkToCstmrDbtCdtNtfctn>
+    <GrpHdr>
+      <MsgId>NOTF20251026-001</MsgId>
+      <CreDtTm>2025-10-26T09:30:00Z</CreDtTm>
+      <MsgPgntn>
+        <PgNb>1</PgNb>
+        <LastPgInd>true</LastPgInd>
+      </MsgPgntn>
+    </GrpHdr>
+    <Ntfctn>
+      <Id>NOTF-12345</Id>
+      <CreDtTm>2025-10-26T09:00:00Z</CreDtTm>
+      <Acct>
+        <Id>
+          <IBAN>DE44500105175407324931</IBAN>
+        </Id>
+        <Ccy>EUR</Ccy>
+        <Nm>ABC Corporation</Nm>
+      </Acct>
+      <Ntry>
+        <Amt Ccy="EUR">1250.75</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Sts>BOOK</Sts>
+        <BookgDt><Dt>2025-10-26</Dt></BookgDt>
+        <ValDt><Dt>2025-10-26</Dt></ValDt>
+        <AcctSvcrRef>REF123456</AcctSvcrRef>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>E2E123456789</EndToEndId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>XYZ GmbH</Nm>
+              </Dbtr>
+              <Cdtr>
+                <Nm>ABC Corporation</Nm>
+              </Cdtr>
+            </RltdPties>
+            <RmtInf>
+              <Ustrd>Invoice 56789 Payment</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+    </Ntfctn>
+  </BkToCstmrDbtCdtNtfctn>
+</Document>

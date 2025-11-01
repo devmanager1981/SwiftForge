@@ -1,0 +1,16 @@
+
+.databricks
+.env
+.vscode
+__pycache__/
+*.pyc
+logs/
+mlruns/
+venv/
+*.log
+.DS_Store
+Thumbs.db
+# Python cache
+*.pyo
+*.pyd
+*.pdb

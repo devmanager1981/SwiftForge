@@ -1,0 +1,32 @@
+# Core utilities
+lxml==4.9.3
+python-dotenv==1.0.1
+pandas==2.2.1
+
+# LangChain ecosystem
+langchain==0.2.0
+langchain-core==0.2.0
+langchain-community==0.0.39
+langchain-openai==0.1.7
+langgraph==0.0.40
+
+# LLM + orchestration
+openai==1.10.0
+autogen==0.10.0
+
+# ML tracking
+mlflow==2.9.2
+azureml-mlflow==1.52.0
+
+# Streamlit UI
+streamlit==1.33.0
+
+# Cucumber feature file generation
+behave==1.2.6
+
+# Optional: Vector store for feedback loop
+faiss-cpu==1.7.4
+
+# Optional: Azure SDKs
+azure-identity==1.15.0
+azure-ai-ml==1.14.0

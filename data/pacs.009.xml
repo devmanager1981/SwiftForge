@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.009.001.08">
+  <FICdtTrf>
+    <GrpHdr>
+      <MsgId>FI20251026-001</MsgId>
+      <CreDtTm>2025-10-26T08:00:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>INDA</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>FININST-001</InstrId>
+        <TxId>FIN-TX-001</TxId>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="USD">500000.00</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2025-10-26</IntrBkSttlmDt>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>CHASUS33XXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>CITIUS33XXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <RmtInf>
+        <Ustrd>Interbank liquidity transfer</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FICdtTrf>
+</Document>

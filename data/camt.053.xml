@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <GrpHdr>
+      <MsgId>STMT20251026-001</MsgId>
+      <CreDtTm>2025-10-26T09:00:00Z</CreDtTm>
+    </GrpHdr>
+    <Stmt>
+      <Id>STATEMENT-001</Id>
+      <ElctrncSeqNb>1</ElctrncSeqNb>
+      <CreDtTm>2025-10-26T09:00:00Z</CreDtTm>
+      <Acct>
+        <Id>
+          <IBAN>DE44500105175407324931</IBAN>
+        </Id>
+        <Ccy>EUR</Ccy>
+        <Nm>ABC Corporation</Nm>
+      </Acct>
+      <Bal>
+        <Tp>
+          <CdOrPrtry>
+            <Cd>OPBD</Cd>
+          </CdOrPrtry>
+        </Tp>
+        <Amt Ccy="EUR">10000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <Dt>
+          <Dt>2025-10-25</Dt>
+        </Dt>
+      </Bal>
+      <Ntry>
+        <Amt Ccy="EUR">-2500.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <BookgDt><Dt>2025-10-26</Dt></BookgDt>
+        <ValDt><Dt>2025-10-26</Dt></ValDt>
+        <AcctSvcrRef>TX12345</AcctSvcrRef>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>INV-7890</EndToEndId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>ABC Corporation</Nm>
+              </Dbtr>
+              <Cdtr>
+                <Nm>Supplier GmbH</Nm>
+              </Cdtr>
+            </RltdPties>
+            <RmtInf>
+              <Ustrd>Payment for Invoice 7890</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>
